@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,18 @@
     <title>Europa</title>
 </head>
 <body>
+    <link rel="stylesheet" href="{% static 'europa/style.css' %}">
+
     <h1>Olá usuário, bem vindo a Europa!</h1>
+
+    <h3>Abaixo há um acesso a páginas sobre os países da Europa:</h3>
+
+    <img id="flag" src="{% static 'europa/euro.jpg' %}">
+
+    <div id="paises"style="width: 300px; margin: 0 auto; margin-left: 15px;">
+        <a href="georgia">Geórgia</a>
+        <a href="paisdgales">País de Gales</a>
+        <a href="russia2">Rússia</a>
+    </div>
 </body>
 </html>

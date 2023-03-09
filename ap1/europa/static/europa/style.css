@@ -1,12 +1,12 @@
 h1 {
-    color: cornflowerblue;
+    color: rgb(116, 8, 8);
     font-family: sans-serif;
     font-size: 90px;
     text-align: center;
 }
 
 h3 {
-    color: cornflowerblue;
+    color: rgb(121, 19, 19);
     font-family: sans-serif;
     font-size: 40px;
     text-align: center;
@@ -17,12 +17,9 @@ p{
 }
 
 a{
-    color: cornflowerblue;
+    color: rgb(116, 8, 8);
 }
 
-h1 > ru{
-    color: brown;
-}
 
 div{
     font-size: 40px;
@@ -49,11 +46,5 @@ background: rgb(255, 255, 255);
 
     a{
         font-size: 20px;
-    }
-
-
-    .flag > img{
-        margin-left: auto;
-        margin-right: auto;
     }
  }

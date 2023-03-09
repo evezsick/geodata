@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,13 @@
     <title>Rússia</title>
 </head>
 <body>
-    
+    <link rel="stylesheet" href="{% static 'asia/styles.css' %}">
+
+    <h1>Rússia</h1>
+
+    <div id="flag">
+    <img src="{% static 'rsf.jpg' %}">
+</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse facilis blanditiis laborum quis omnis possimus tempore maiores reprehenderit eveniet reiciendis nobis aut est accusamus repudiandae veniam quos, ex dicta consectetur?</p>
 </body>
 </html>

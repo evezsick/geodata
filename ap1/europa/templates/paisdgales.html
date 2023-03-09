@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,14 @@
     <title>País de Gales</title>
 </head>
 <body>
+    <link rel="stylesheet" href="{% static 'europa/style.css' %}">
+
     <h1>País de Gales</h1>
+
+    <div id="flag">
+    <img src="{% static 'europa/pdgf.jpg' %}">
+</div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse facilis blanditiis laborum quis omnis possimus tempore maiores reprehenderit eveniet reiciendis nobis aut est accusamus repudiandae veniam quos, ex dicta consectetur?</p>
 </body>
 </html>
